@@ -36,4 +36,10 @@ pip install virtualenv
 virtualenv venv && source venv/bin/activate
 pip install -r requirements.txt
 
+Note: venv is just the name of the environment, can be whatever
+
 python run.py
+
+
+virtual env wrapper
+-- in case you need to manage a lot of virtual envs
