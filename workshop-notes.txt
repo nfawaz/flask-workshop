@@ -1,0 +1,39 @@
+cuttlesoft python/flask workshop
+
+Plan
+1. Overview
+2. Intro to flask
+3. practical application
+4. break, pizza, plan
+5. your turn!
+
+
+getting started
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+	return 'Hello, world!'
+
+if __name__ == '__name__':
+	app.run()
+
+
+
+git clone
+https://github.com/cuttlesoft/flask_workshop
+
+
+pip freeze
+
+https://html5up.net/
+
+
+pip install virtualenv
+virtualenv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+python run.py
